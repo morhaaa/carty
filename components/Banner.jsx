@@ -2,7 +2,7 @@ import { HiDevicePhoneMobile } from "react-icons/hi2";
 import { HiOutlineCreditCard } from "react-icons/hi";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
-import Prova from "../public/prova.png";
+import Card from "../public/Card.png";
 
 const Banner = () => {
   const { ref: ref1, inView: view1 } = useInView({
@@ -46,7 +46,7 @@ const Banner = () => {
       </div>
 
       <div className="mx-10 md:mx-2 ">
-        <Image src={Prova} alt="cards" className=" animate-skew  min-w-64 " />
+        <Image src={Card} alt="cards" className=" animate-skew  min-w-64 " />
       </div>
     </div>
   );
